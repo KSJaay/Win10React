@@ -1,0 +1,17 @@
+.featured-project-link-item{
+    font-size: 1.8em;
+    margin: 18px 20px 0px 5px;
+    color: var(--font-color);
+    text-decoration: none;
+}
+
+.featured-project-link-item:hover{
+    cursor: pointer;
+    color: var(--highlight-color);
+}
+
+@media (max-width: 768px) {
+    .featured-project-link-item{
+        margin: 18px 20px 10px 8px;
+    }
+}
