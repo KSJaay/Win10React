@@ -1,3 +1,5 @@
+# THIS PROJECT IS A MESS, RECODE WHICH IS MUCH CLEANER IS COMING SOON
+
 # Win10React
 This is my Windows 10 💻 themed portfolio, created using React and Styled Components.
 
