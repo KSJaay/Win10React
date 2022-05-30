@@ -1,14 +1,25 @@
+import { useEffect } from "react";
 import styled from "styled-components";
+import { observer } from "mobx-react-lite";
 import BottomNavigation from "./navigation/bottom";
 
-export default function Container() {
+const Container = () => {
+  useEffect(() => {
+    window.addEventListener("click", (event) => {});
+  });
+
   return (
-    <MainContainer>
+    <MainContainer
+      style={{
+        backgroundImage: `url("/images/Backgrounds/Desert.webp")`,
+        backgroundSize: "cover",
+      }}
+    >
       <Content></Content>
       <BottomNavigation />
     </MainContainer>
   );
-}
+};
 
 const MainContainer = styled.div`
   display: flex;
@@ -21,3 +32,5 @@ const Content = styled.div`
   flex: 1;
   width: 100%;
 `;
+
+export default observer(Container);
