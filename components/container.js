@@ -4,8 +4,8 @@ import BottomNavigation from "./navigation/bottom";
 export default function Container() {
   return (
     <MainContainer>
-      <Content>asd</Content>
-      <BottomNavigation></BottomNavigation>
+      <Content></Content>
+      <BottomNavigation />
     </MainContainer>
   );
 }

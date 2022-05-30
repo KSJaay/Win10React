@@ -1,9 +1,11 @@
 import styled from "styled-components";
 import Search from "./search";
+import Startup from "./startup";
 
 export default function BottomNavigation() {
   return (
     <Content>
+      <Startup />
       <Search />
     </Content>
   );
