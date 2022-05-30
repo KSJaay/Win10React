@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import SearchBar from "./bar";
 
-export default function search() {
+export default function Search() {
   return (
     <Content>
       <SearchBar />

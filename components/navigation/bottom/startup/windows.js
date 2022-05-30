@@ -1,4 +1,4 @@
-export default function ({ fill, width, height, svgRef }) {
+export default function WindowsSvg({ fill, width, height, svgRef }) {
   return (
     <div
       style={{
