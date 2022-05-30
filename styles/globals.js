@@ -36,11 +36,16 @@ export const GlobalStyle = createGlobalStyle`
     --primary-color: #282c34;
     --secondary-color: #21252b;
     --light-color: #333842;
+    
     --font-color: #ffffff;
     --font-light: #aaaaaa;
+    
     --highlight-color: #3bce85;
+    
     --scroll-primary: #333842;
     --scroll-secondary: #21252b;
+
+    --navbar-hover: #1c1e24;
   }
   [data-theme="dark"] {
     --primary-color: #282c34;
